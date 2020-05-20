@@ -10,7 +10,7 @@ This use case can help in migration techniques when the customer is moving to cl
 In this scenario, we will have two tiers, the front-end application is "WordPress" and  a SQL database. In my example I am using MySQL dB hosted in a virtual machine instance orchestrated through openstack.
 
 
-Let’s spin up the frontend in the k8 environment. I have followed kubernetes documentation [link](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/) for the front-end containerized WEB-UI and followed the MqSQL installation on CentOS7 [link](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-centos-7) for the backend setup.  
+Let’s spin up the frontend in the k8 environment. I have followed kubernetes documentation [link](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/) for the front-end containerized WEB-UI.
 
 ___
 ## Video Demo
@@ -250,4 +250,3 @@ Exploring data inside the WordPress DB.
 
 
 We can see how Contrail can help establish the connectivity of the workloads anywhere, be it microservices or monolithic applications. We can further extend this front-end to the public cloud and contrail will ensure that application exprrience is seamless for the end-to-end connectivity.
-
